@@ -34,7 +34,7 @@ times before. You can instead go straight to work building your brand and making
 ## Requirements
 
 - Node.js 20+
-- `npm` (or `pnpm`/`yarn`)
+- run (if you don't have nvm, please install first) `nvm use 20` 
 
 ## Getting started
 
