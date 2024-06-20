@@ -79,7 +79,7 @@ export const Header = async ({ cart, data }: Props) => {
                     <User aria-hidden="true" />
                   </Link>
 
-                  <ul className="absolute -right-12 top-full z-10 hidden cursor-default bg-white p-6 pb-8 shadow-md group-hover/account:block [&>li]:mb-2">
+                  <ul className="absolute -right-12 top-full z-10 hidden cursor-default bg-white dark:bg-gray-700 p-6 pb-8 shadow-md group-hover/account:block [&>li]:mb-2">
                     <li>
                       <Link
                         className="whitespace-nowrap font-semibold focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/20"

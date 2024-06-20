@@ -66,8 +66,8 @@ export default function RootLayout({ children, params: { locale } }: RootLayoutP
   const messages = useMessages();
 
   return (
-    <html className={`${inter.variable} font-sans`} lang={locale}>
-      <body className="flex h-screen min-w-[375px] flex-col">
+    <html className={`${inter.variable} dark font-sans text-gray-200`} lang={locale}>
+      <body className="flex h-screen min-w-[375px] flex-col dark:bg-gray-700 ">
         <Notifications />
         <NextIntlClientProvider locale={locale} messages={{ Providers: messages.Providers ?? {} }}>
           <Providers>{children}</Providers>

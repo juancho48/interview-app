@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
   content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  darkMode: 'selector',
   theme: {
     extend: {
       colors: {
